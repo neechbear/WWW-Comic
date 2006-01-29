@@ -1,0 +1,16 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         WWW-Comic
+version:      1.05
+version_from: lib/WWW/Comic.pm
+installdirs:  site
+requires:
+    Carp:                          0
+    HTTP::Request:                 0
+    LWP::UserAgent:                0
+    Module::Pluggable:             2.96
+    WWW::Dilbert:                  1.18
+    WWW::VenusEnvy:                1.06
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17
