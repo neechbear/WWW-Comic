@@ -1,0 +1,14 @@
+<SOFTPKG NAME="WWW-Comic" VERSION="1,06,0,0">
+    <TITLE>WWW-Comic</TITLE>
+    <ABSTRACT>Retrieve comic strip images</ABSTRACT>
+    <AUTHOR>Nicola Worthington &lt;nicolaw@cpan.org&gt;</AUTHOR>
+    <IMPLEMENTATION>
+        <DEPENDENCY NAME="WWW-VenusEnvy" VERSION="1,06,0,0" />
+        <DEPENDENCY NAME="Module-Pluggable" VERSION="2,96,0,0" />
+        <DEPENDENCY NAME="LWP-UserAgent" VERSION="0,0,0,0" />
+        <DEPENDENCY NAME="HTTP-Request" VERSION="0,0,0,0" />
+        <DEPENDENCY NAME="Carp" VERSION="0,0,0,0" />
+        <DEPENDENCY NAME="WWW-Dilbert" VERSION="1,18,0,0" />
+        <CODEBASE HREF="PPM-WWW-Comic-1.06.tar.gz" />
+    </IMPLEMENTATION>
+</SOFTPKG>
