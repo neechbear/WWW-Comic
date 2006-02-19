@@ -33,7 +33,7 @@ use Module::Pluggable(
 
 use constant DEBUG => $ENV{DEBUG} ? 1 : 0;
 use vars qw($VERSION $AUTOLOAD);
-$VERSION = sprintf('%d.%02d', q$Revision: 1.5 $ =~ /(\d+)/g);
+$VERSION = '1.06' || sprintf('%d.%02d', q$Revision$ =~ /(\d+)/g);
 
 
 #################################
